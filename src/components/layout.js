@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Logo from "../components/Logo"
 
 import Header from "./header"
 import "./layout.css"
@@ -18,6 +19,10 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+            menuLinks {
+              name
+              link
+            }
         }
       }
     }
@@ -25,7 +30,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={Logo} menuLinks={data.site.siteMetadata.menuLinks} />
       <div
         style={{
           margin: `0 auto`,
@@ -36,9 +41,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
+          TAX-EXEMPT NONPROFIT INCORPORATED IN 1979.
         </footer>
       </div>
     </>

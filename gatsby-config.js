@@ -3,6 +3,28 @@ module.exports = {
     title: `Quote Unquote, Inc.`,
     description: `Quote Unquote is relaunching operations!`,
     author: `@GabrielWest, @OffTheGrid Development`,
+    menuLinks: [
+      {
+        name: "home",
+        link: "/",
+      },
+      {
+        name: "about us",
+        link: "",
+      },
+      {
+        name: "services",
+        link: "/services",
+      },
+      {
+        name: "news",
+        link: "/news",
+      },
+      {
+        name: "contact us",
+        link: "/contact",
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
