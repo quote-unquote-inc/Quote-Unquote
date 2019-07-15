@@ -6,7 +6,7 @@ import Logo from "../components/logo"
 const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
-      background: `lavenderblush`,
+      background: `white`,
       marginBottom: `1.45rem`,
       borderBottom: `#cb1741 solid`,
     }}
@@ -40,7 +40,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             {menuLinks.map(link => (
               <li
                 key={link.name}
-                style={{ listStyleType: `none`, padding: `0.5rem`, width:'20%' }}
+                style={{ listStyleType: `none`, padding: `0.5rem`, width:'20%'  }}
               >
                 {" "}
                 <Link
