@@ -30,31 +30,60 @@ const Header = ({ siteTitle, menuLinks }) => (
           <Logo />
         </Link>
       </h1>
-      </div>
-      <div style={{  }}>
+    </div>
+    <div style={{}}>
+      {" "}
+      <nav
+        style={{
+          minWidth: "100%",
+          margin: "0",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "16px",
+        }}
+      >
         {" "}
-        <nav style={{ minWidth:'100%', margin:'0', textAlign:'center', textTransform:'uppercase', fontSize:'16px' }}>
+        <ul style={{ display: "flex", flex: 1, margin: 0 }}>
           {" "}
-          <ul style={{ display: "flex", flex: 1, margin:0 }}>
-            {" "}
-            {menuLinks.map(link => (
-              <li
-                key={link.name}
-                style={{ listStyleType: `none`, padding: `0.5rem`, width:'20%'  }}
+          {menuLinks.map(link => (
+            <li
+              key={link.name}
+              style={{}}
+              css={{
+                listStyleType: `none`,
+                padding: `0.5rem`,
+                width: "20%",
+                transition: `0.8s`,
+                /*":hover": {
+                  transform: `scale(1.05)`,
+                  transition: `0.4s`,
+                },*/
+              }}
+            >
+              {" "}
+              <Link
+                style={{}}
+                css={{
+                  color: `black`,
+                  textDecoration: "none",
+                  transition: '1s',
+                  ":hover": {
+                    transform: `scale(1.3)`,
+                    transition: `0.7s`,
+                    color: `#cb1741`,
+                    fontWeight: "bold",
+                  },
+                }}
+                to={link.link}
               >
                 {" "}
-                <Link
-                  style={{ color: `black`, textDecoration: "none" }}
-                  to={link.link}
-                >
-                  {" "}
-                  {link.name}{" "}
-                </Link>{" "}
-              </li>
-            ))}{" "}
-          </ul>{" "}
-        </nav>{" "}
-      </div>
+                {link.name}{" "}
+              </Link>{" "}
+            </li>
+          ))}{" "}
+        </ul>{" "}
+      </nav>{" "}
+    </div>
   </header>
 )
 
