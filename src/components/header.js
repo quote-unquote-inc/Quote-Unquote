@@ -2,13 +2,14 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../components/logo"
+import("./header.scss")
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
       background: `white`,
       marginBottom: `1.45rem`,
-      borderBottom: `#cb1741 solid`,
+      borderBottom: `#cb1741 solid 2.6px`,
     }}
   >
     <div
@@ -47,8 +48,9 @@ const Header = ({ siteTitle, menuLinks }) => (
           {" "}
           {menuLinks.map(link => (
             <li
+              className="navlis hvr-sweep-to-top"
               key={link.name}
-              style={{}}
+              //style={{}}
               css={{
                 listStyleType: `none`,
                 padding: `0.5rem`,
@@ -62,17 +64,18 @@ const Header = ({ siteTitle, menuLinks }) => (
             >
               {" "}
               <Link
+                className="navlin hvr-grow"
                 style={{}}
-                css={{
-                  color: `black`,
+                css={{/*
+                  color: `#cb1741`,
                   textDecoration: "none",
-                  transition: '1s',
+                  transition: "1s",
                   ":hover": {
                     transform: `scale(1.3)`,
                     transition: `0.7s`,
                     color: `#cb1741`,
                     fontWeight: "bold",
-                  },
+                  },*/
                 }}
                 to={link.link}
               >
