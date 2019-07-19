@@ -6,9 +6,9 @@ import("./header.scss")
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
-    style={{
+    css={{
       background: `white`,
-      marginBottom: `1.45rem`,
+      //marginBottom: `1.45rem`,
       borderBottom: `#cb1741 solid 2.6px`,
     }}
   >

@@ -1,0 +1,73 @@
+@media screen and (max-width: 1024px) {
+    .para img {
+        height: 1333px !important;
+        width: 1024px !important;
+    }
+
+    .para .react-parallax-content .paraText {
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .para img {
+        height: 1000px !important;
+        width: auto !important;
+    }
+
+    .para .react-parallax-content .paraText {
+        font-size: 1.5rem !important;
+    }
+}
+
+// Browser Specific CSS
+ @-moz-document url-prefix() {
+        .react-parallax-content .paraText {
+            //color: red;
+            top: 45vh;
+            display: inline-table;
+            //opacity: $();
+        }
+    }
+/*.react-parallax-content {
+    /*position: absolute;
+    top: 0px;
+    padding-top: 50%;
+    /* center the top of child elements vetically 
+    padding-bottom: 50%;
+    height: 0px;
+}*/
+
+.para {
+    height: 100vh;
+}
+
+.paraText {
+    display: table-cell;
+    height: min-content;
+    width: 100%;
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 90vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 13px;
+    font-size: 3rem;
+    //line-height: 90vh;  
+    background: rgba(0, 0, 0, 0.4);
+    //line-height: 100vh;
+    text-align: center;
+    /* horizontal centering */
+    -webkit-transform: translateY(50%);
+    /* child now centers itself relative to the  midline based on own contents */
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    //-ms-filter: 'progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod="auto expand")'; /*IE8 */
+    //filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.5, M12=0, M21=0, M22=0.5,  SizingMethod='auto expand'); /*IE6, IE7*/
+    transform: translateY(50%);
+    line-break: 39px;
+
+   
+}

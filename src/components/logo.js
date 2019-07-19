@@ -7,7 +7,7 @@ const Logo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "QUQlogo.png" }) {
         childImageSharp {
-          fluid(maxWidth: 700) {
+          fluid(maxWidth: 7000) {
             ...GatsbyImageSharpFluid
           }
         }

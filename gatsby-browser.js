@@ -5,3 +5,15 @@
  */
 
 // You can delete this file if you're not using it
+
+/* intersection-observer Polyfill API for Safari/IE lazy loading support */
+// ES5 way
+// exports.onClientEntry = () => {
+// ES6 way
+export const onClientEntry = () => {  
+  // IntersectionObserver polyfill for gatsby-background-image (Safari, IE)
+  if (typeof window.IntersectionObserver === `undefined`) {
+    import(`intersection-observer`)
+    console.log(`# IntersectionObserver is polyfilled!`)
+  }
+}
