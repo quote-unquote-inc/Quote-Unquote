@@ -424,6 +424,7 @@ const AltParallax = () => (
         <form
           method="post"
           action="#"
+          netlify-honeypot="bot-field"
           data-netlify="true"
           name="contact"
           css={{
@@ -432,6 +433,7 @@ const AltParallax = () => (
           }}
         >
           <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <input
             type="text"
             name="name"

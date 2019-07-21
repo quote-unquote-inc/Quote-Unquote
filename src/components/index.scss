@@ -4,7 +4,7 @@
 }
 
 .iPZMPS {
-    background-size: 1359px 1177px;
+    background-size: 1359px 1177px !important;
 
 }
 
@@ -21,7 +21,7 @@
     }
 
     @media only screen and (max-width: 1466px) {
-        background-size: 1459px 989px;
+        background-size: 1459px 989px !important;
     }
 }
 
@@ -35,6 +35,6 @@
     }
 
     @media only screen and (max-width: 1466px) {
-        background-size: 1459px 777px;
+        background-size: 1459px 777px !important;
     }
 }
