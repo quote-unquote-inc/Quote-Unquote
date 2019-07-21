@@ -1,5 +1,6 @@
 import React from "react"
 import { Parallax, Background } from "react-parallax"
+import StyledMultiBackground from "./multiback"
 
 const IndexParallax = () => (
   <div
@@ -52,15 +53,17 @@ const IndexParallax = () => (
         <div
           style={{
             position: "absolute",
-            background: `rgba(74, 82, 93, ${percentage * 2})`,
+            background: `linear-gradient(rgba(220, 15, 15, ${percentage * 3}), rgba(4, 243, 67, ${percentage * 6}))`,
+            backgroundImage: ``,
             right: "0%",
             top: "0",
             width: percentage * 90000,
-            height: percentage * 4300,
+            height: percentage * 2550,
           }}
         />
       )}
-    >
+    ><StyledMultiBackground />
+      
       <div
         className="paraText"
         style={

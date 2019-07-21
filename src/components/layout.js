@@ -30,10 +30,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={Logo} menuLinks={data.site.siteMetadata.menuLinks} style={{
-        top: 0,
-        position: `sticky`,
-      }} />
+      <Header
+        siteTitle={Logo}
+        menuLinks={data.site.siteMetadata.menuLinks}
+        style={{
+          top: 0,
+          position: `sticky`,
+        }}
+      />
       <div
         style={{
           margin: `0 auto`,
@@ -49,10 +53,12 @@ const Layout = ({ children }) => {
             bottom: 0,
             position: `relative`,
             textAlign: `center`,
+            backgroundColor: "#282E34",
+            opacity: '0.85',
           }}
         >
-          © {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
-          TAX-EXEMPT NONPROFIT INCORPORATED IN 1979.
+          <p style={{opacity:'1', margin:'0', }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
+          TAX-EXEMPT NONPROFIT INCORPORATED IN 1979.</p>
         </footer>
       </div>
     </>

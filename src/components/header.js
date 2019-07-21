@@ -44,7 +44,7 @@ const Header = ({ siteTitle, menuLinks }) => (
         }}
       >
         {" "}
-        <ul style={{ display: "flex", flex: 1, margin: 0 }}>
+        <ul style={{ display: "flex", flex: 1, margin: 0, }}>
           {" "}
           {menuLinks.map(link => (
             <li
