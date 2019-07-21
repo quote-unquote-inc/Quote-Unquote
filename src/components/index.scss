@@ -17,33 +17,43 @@
 .paraRelaunch .sc-bdVaJa {
 
     @media only screen and (max-width: 1466px) {
-        background-size: 1459px 989px !important;
+        background-size: 100vw 140vh !important;
     }
 
     @media only screen and (max-width: 780px) {
-        background-size: 1754px 1159px !important;
+        background-size: 115vw 130vh !important;
     }
 
     @media only screen and (max-width: 480px) {
-        background-size: 1459px 989px !important;
+        background-size: 200vw 140vh !important;
     }
 }
 
 .sc-htpNat {
     @media only screen and (min-width: 1467px) {
-        background-size: 4054px 2159px !important;
+        background-size: 110vw 150vh !important;
     }
 
     @media only screen and (max-width: 1466px) {
-        background-size: 1459px 973px !important;
+        background-size: 100vw 126vh !important;
     }
 
     @media only screen and (max-width: 780px) {
-        background-size: 2054px 1159px !important;
+        background-size: 160vw 130vh !important;
     }
 
     @media only screen and (max-width: 480px) {
-        background-size: 1410px 813px !important;
+        background-size: 220vw 130vh !important;
     }
 
+}
+
+.paraSolid {
+    @media only screen and (max-width: 780px) {
+        height: min-content;
+    }
+
+    @media only screen and (max-width: 480px) {
+        height: min-content;
+    }
 }
