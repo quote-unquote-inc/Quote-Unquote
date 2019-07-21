@@ -1,4 +1,4 @@
-.bIuPdp {
+/*.bIuPdp {
     background-size: 1356px 1147px;
 
 }
@@ -13,28 +13,33 @@
 
 
 }
-
+*/
 .paraRelaunch .sc-bdVaJa {
 
-
-    @media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 1466px) {
+        background-size: 1459px 989px !important;
     }
 
-    @media only screen and (max-width: 1466px) {
+    @media only screen and (max-width: 780px) {
+        background-size: 1754px 1159px !important;
+    }
+
+    @media only screen and (max-width: 480px) {
         background-size: 1459px 989px !important;
     }
 }
 
 .sc-htpNat {
-
-
-    @media only screen and (max-width: 480px) {
-        html {
-            font-size: 100%;
-        }
-    }
-
     @media only screen and (max-width: 1466px) {
         background-size: 1459px 799px !important;
     }
+
+    @media only screen and (max-width: 780px) {
+        background-size: 2054px 1159px !important;
+    }
+
+    @media only screen and (max-width: 480px) {
+        background-size: 1410px 813px !important;
+    }
+
 }
