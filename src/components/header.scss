@@ -16,11 +16,11 @@ header {
     color: #BE0405;
     text-decoration: "none";
     transition: 0.6s;
-    padding-right: 33%;
-    padding-left: 33%;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    margin-bottom: 1px;
+    //padding-right: 33%;
+    //padding-left: 33%;
+    //padding-top: 3%;
+    //padding-bottom: 2%;
+    //margin-bottom: 1px;
     width: 100%;
     height: 100%;
 
@@ -72,8 +72,8 @@ header {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     color: white;
 }
 
