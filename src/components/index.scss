@@ -17,15 +17,15 @@
 .paraRelaunch .sc-bdVaJa {
 
     @media only screen and (max-width: 1466px) {
-        background-size: 100vw 140vh !important;
+        background-size: 100vw 1980px !important;
     }
 
     @media only screen and (max-width: 780px) {
-        background-size: 115vw 130vh !important;
+        background-size: 100vw 1980px !important;
     }
 
     @media only screen and (max-width: 480px) {
-        background-size: 200vw 140vh !important;
+        background-size: 100vw 1980px !important;
     }
 }
 
@@ -35,25 +35,25 @@
     }
 
     @media only screen and (max-width: 1466px) {
-        background-size: 100vw 126vh !important;
+        background-size: 100vw 1980px !important;
     }
 
     @media only screen and (max-width: 780px) {
-        background-size: 160vw 130vh !important;
+        background-size: 160vw 1980px !important;
     }
 
     @media only screen and (max-width: 480px) {
-        background-size: 220vw 130vh !important;
+        background-size: 220vw 1980px !important;
     }
 
 }
 
 .paraSolid {
     @media only screen and (max-width: 780px) {
-        height: min-content;
+        height: 130vh;
     }
 
     @media only screen and (max-width: 480px) {
-        height: min-content;
+        height: 130vh;
     }
 }
