@@ -13,7 +13,7 @@ const AltParallax = () => (
     <LazyHero
       imageSrc="https://cdn.hipwallpaper.com/m/3/17/rj70ie.jpg"
       className="paraImage paraRelaunch"
-      parallaxOffset="100"
+      parallaxOffset="130"
       color="lightblue"
       opacity="0.4"
       minHeight="100vh"
@@ -90,8 +90,9 @@ const AltParallax = () => (
 
     <LazyHero
       imageSrc="https://i.vimeocdn.com/video/676887219.jpg?mw=1920&mh=1080&q=70"
-      className="paraImage"
+      className="paraImage paraAbout"
       parallaxOffset="100"
+      color="lightblue"
       minHeight="100vh"
       opacity="0.4"
       css={{
@@ -146,7 +147,7 @@ const AltParallax = () => (
             },
           }}
         >
-          The Vision
+          Our Vision
         </h1>
         <p
           css={{
@@ -169,7 +170,7 @@ const AltParallax = () => (
             },
           }}
         >
-          Our Goals
+          The Goal
         </h1>
         <p
           css={{
@@ -192,10 +193,11 @@ const AltParallax = () => (
     </LazyHero>
     <LazyHero
       imageSrc="https://wallpapercave.com/wp/wp1810973.jpg"
-      className="paraImage"
+      className="paraImage paraServices"
       parallaxOffset="100"
-      minHeight="100vh"
+      color="lightblue"
       opacity="0.4"
+      minHeight="100vh"
       css={{
         boxShadow: "0px -8px 26px",
         backgroundSize: "1362px 798px",
@@ -231,7 +233,7 @@ const AltParallax = () => (
       css={{
         boxShadow: "0px 10px 26px inset",
         "@media(max-width: 480px)": {
-          minHeight: "120vh",
+          minHeight: "130vh",
         },
       }}
     >
@@ -313,9 +315,10 @@ const AltParallax = () => (
     </LazyHero>
     <LazyHero
       imageSrc="https://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016-1024x576.jpg"
-      className="paraImage"
+      className="paraImage paraContact"
       parallaxOffset="100"
       minHeight="100vh"
+      color="lightblue"
       opacity="0.4"
       css={{
         boxShadow: "0px -8px 26px",
