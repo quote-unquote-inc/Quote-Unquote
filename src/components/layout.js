@@ -53,8 +53,9 @@ const Layout = ({ children }) => {
             bottom: 0,
             position: `relative`,
             textAlign: `center`,
-            backgroundColor: "#282E34",
+            backgroundColor: "lavenderblush",
             opacity: '0.85',
+            boxShadow: '0px -10px 20px'
           }}
         >
           <p style={{opacity:'1', margin:'0', }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
