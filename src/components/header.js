@@ -53,7 +53,7 @@ const Header = ({ siteTitle, menuLinks }) => (
               //style={{}}
               css={{
                 listStyleType: `none`,
-                padding: `0.5rem`,
+                //padding: `0.5rem`,
                 width: "20%",
                 transition: `0.8s`,
                 /*":hover": {
