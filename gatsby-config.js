@@ -47,7 +47,7 @@ module.exports = {
         name: `Quote Unquote, Inc.`,
         short_name: `QUQ INC.`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `white`,
         theme_color: `#cb1741`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.

@@ -58,7 +58,7 @@ const Layout = ({ children }) => {
             boxShadow: '0px -10px 20px'
           }}
         >
-          <p style={{opacity:'1', margin:'0', }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
+          <p style={{opacity:'1', margin:'0', boxShadow:'0px -5px 13px' }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
           TAX-EXEMPT NONPROFIT INCORPORATED IN 1979.</p>
         </footer>
       </div>

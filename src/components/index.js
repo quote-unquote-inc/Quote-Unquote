@@ -1,7 +1,13 @@
 import React from 'react'
 import LazyHero from 'react-lazy-hero'
+import styled from 'styled-components'
 
 import "./index.scss"
+
+const H1 = styled.h1`
+  font-size: 3.25rem;
+  color: white !important;
+`
 
 const AltParallax = () => (
   <div
@@ -23,22 +29,23 @@ const AltParallax = () => (
     >
       <div
         css={{
-          color: "white",
+          color: "white !important",
           width: "100vw",
           background: "rgba(0,0,0,0.4)",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             padding: "26px",
+            color: "white",
             "@media(max-width: 480px)": {
               fontSize: "3rem",
             },
           }}
         >
           Quote Unquote, Inc. is relaunching operations!
-        </h1>
+        </H1>
       </div>
     </LazyHero>
 
@@ -60,7 +67,7 @@ const AltParallax = () => (
           width: "80vw",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -69,7 +76,7 @@ const AltParallax = () => (
           }}
         >
           What is Quote Unquote?
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -105,7 +112,7 @@ const AltParallax = () => (
           //overflow: "visible",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             color: "white",
@@ -116,7 +123,7 @@ const AltParallax = () => (
           }}
         >
           About Us
-        </h1>
+        </H1>
       </div>
     </LazyHero>
     <LazyHero
@@ -134,11 +141,11 @@ const AltParallax = () => (
     >
       <div
         css={{
-          color: "white",
+          color: "white !important",
           width: "90vw",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -147,7 +154,7 @@ const AltParallax = () => (
           }}
         >
           The Vision
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -161,7 +168,7 @@ const AltParallax = () => (
           community media. We concentrate on using media as a tool for education
           and empowerment.
         </p>
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -170,7 +177,7 @@ const AltParallax = () => (
           }}
         >
           Our Goals
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -208,7 +215,7 @@ const AltParallax = () => (
           //overflow: "visible",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             color: "white",
@@ -219,7 +226,7 @@ const AltParallax = () => (
           }}
         >
           Services
-        </h1>
+        </H1>
       </div>
     </LazyHero>
     <LazyHero
@@ -237,11 +244,11 @@ const AltParallax = () => (
     >
       <div
         css={{
-          color: "white",
+          color: "white !important",
           width: "90vw",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 490px)": {
@@ -250,7 +257,7 @@ const AltParallax = () => (
           }}
         >
           PRODUCTION
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -263,7 +270,7 @@ const AltParallax = () => (
           Live & pre-recorded multi-media production and streaming services for
           events and sponsored shows.
         </p>
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -272,7 +279,7 @@ const AltParallax = () => (
           }}
         >
           TRAINING
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -285,7 +292,7 @@ const AltParallax = () => (
           Pre-production and Tri-caster production training for k-12 and
           post-secondary educational institutions.
         </p>
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -294,7 +301,7 @@ const AltParallax = () => (
           }}
         >
           MORE
-        </h1>
+        </H1>
         <p
           className=""
           css={{
@@ -329,7 +336,7 @@ const AltParallax = () => (
           //overflow: "visible",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             color: "white",
@@ -340,7 +347,7 @@ const AltParallax = () => (
           }}
         >
           Contact Us
-        </h1>
+        </H1>
       </div>
     </LazyHero>
     <LazyHero
@@ -359,7 +366,7 @@ const AltParallax = () => (
           //width: "80vw",
         }}
       >
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -368,7 +375,7 @@ const AltParallax = () => (
           }}
         >
           Contact us directly:
-        </h1>
+        </H1>
         <p
           css={{
             fontSize: "1.5rem",
@@ -408,7 +415,7 @@ const AltParallax = () => (
             5005 4th St. NW Ste. 102, Albuquerque NM 87107
           </a>
         </p>
-        <h1
+        <H1
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
@@ -417,7 +424,7 @@ const AltParallax = () => (
           }}
         >
           Or send us a message:
-        </h1>
+        </H1>
       </div>
 
       <div className="form">
