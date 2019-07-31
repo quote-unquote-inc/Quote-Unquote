@@ -30,7 +30,14 @@ const Zoomable = posed.div({
     margin:0,
   },
 });
-
+const Hover = posed.div({
+  on: {
+    scale: 1.1,
+  },
+  off: {
+    scale: 1,
+  }
+});
 class ImageZoom extends React.Component {
   constructor(props) {
     super(props);
@@ -49,6 +56,22 @@ class ImageZoom extends React.Component {
 
   toggleZoom = () => (this.state.active ? this.zoomOut() : this.zoomIn());
 
+  state = {
+    hovered: false
+  };
+
+  handleMouseEnter = () => {
+    this.setState({
+      hovered: true
+    });
+  };
+
+  handleMouseLeave = () => {
+    this.setState({
+      hovered: false
+    });
+  };
+
   render() {
     return (
       <Zoomable
@@ -56,7 +79,14 @@ class ImageZoom extends React.Component {
         pose={this.state.active ? "fullscreen" : "idle"}
         onClick={this.toggleZoom}
       >
+        <Hover
+          className="hover"
+          pose={this.state.hovered ? "on" : "off"}
+          onMouseEnter={this.handleMouseEnter}
+          onMouseLeave={this.handleMouseLeave}
+        >
           <ColGor />
+        </Hover>
       </Zoomable>
     );
   }
