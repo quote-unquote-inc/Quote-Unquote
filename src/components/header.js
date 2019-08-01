@@ -10,6 +10,7 @@ const Header = ({ siteTitle, menuLinks }) => (
       background: `white`,
       //marginBottom: `1.45rem`,
       borderBottom: `#cb1741 solid 2.6px`,
+      overflow: `hidden`,
     }}
   >
     <div

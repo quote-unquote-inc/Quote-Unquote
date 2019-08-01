@@ -55,7 +55,8 @@ const Layout = ({ children }) => {
             textAlign: `center`,
             backgroundColor: "lavenderblush",
             opacity: '0.85',
-            boxShadow: '0px -10px 20px'
+            boxShadow: '0px -10px 20px',
+            marginTop: 'auto',
           }}
         >
           <p style={{opacity:'1', margin:'0', boxShadow:'0px -5px 13px' }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
@@ -71,3 +72,6 @@ Layout.propTypes = {
 }
 
 export default Layout
+//KQUQ Tab - Survey "Get involved!" - talk to roger for survey (age/ ethnicity/ zip code/ contact info)
+//5 full hour production for KQUQ
+//Volt stuff

@@ -17,7 +17,7 @@ const config = {
 
 const Box = posed.div(config);
 
-class Contact extends React.PureComponent {
+class Contact extends React.Component {
   state = {
     hovered: false
   };
@@ -47,6 +47,4 @@ class Contact extends React.PureComponent {
     );
   }
 }
-
-ReactDOM.render( document.getElementById("root"));
 export default Contact

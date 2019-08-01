@@ -22,7 +22,7 @@ const Zoomable = posed.div({
     top: 0,
     left: 0,
     width: "100vw",
-    height: "100vh",
+    height: "80vh",
     flip: true,
     zIndex: "1",
     backgroundColor: "rgba(0,0,0,0.8)",

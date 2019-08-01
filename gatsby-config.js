@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Quote Unquote, Inc.`,
     description: `Quote Unquote is relaunching operations!`,
-    author: `@GabrielWest, @OffTheGrid Development`,
+    author: `@GabrielWest, @OffTheGridDevelopment`,
     menuLinks: [
       {
         name: "home",
