@@ -57,3 +57,36 @@
         height: min-content;
     }
 }
+
+/*<LazyHero
+      imageSrc="https://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016-1024x576.jpg"
+      className="paraImage"
+      parallaxOffset="100"
+      minHeight="100vh"
+      opacity="0.4"
+      css={{
+        boxShadow: "0px -8px 26px",
+        backgroundSize: "1362px 798px",
+      }}
+    >
+      <div
+        css={{
+          width: "100vw",
+          background: "rgba(0,0,0,0.4)",
+          //overflow: "visible",
+        }}
+      >
+        <H1
+          css={{
+            fontSize: "3.25rem",
+            color: "white",
+            padding: "26px",
+            "@media(max-width: 480px)": {
+              fontSize: "3rem",
+            },
+          }}
+        >
+          Contact Us
+        </H1>
+      </div>
+    </LazyHero>*/

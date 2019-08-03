@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
             textAlign: `center`,
             backgroundColor: "lavenderblush",
             opacity: '0.85',
-            boxShadow: '0px -10px 20px',
+            boxShadow: '0px -10px 20px white',
             marginTop: 'auto',
           }}
         >
