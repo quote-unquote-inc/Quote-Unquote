@@ -50,11 +50,11 @@
 
 .paraSolid {
     @media only screen and (max-width: 780px) {
-        height: min-content;
+        min-height: 160vh;
     }
 
     @media only screen and (max-width: 480px) {
-        height: min-content;
+        min-height: 150vh;
     }
 }
 

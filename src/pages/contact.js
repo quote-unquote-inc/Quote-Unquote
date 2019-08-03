@@ -16,10 +16,10 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact Us" />
     <LazyHero
-      imageSrc="#"
+      imageSrc="https://code2prog.com/wp-content/uploads/2015/01/ceystalhorizon-flat-design-wallpapers-HD-free-wallpapers-backgrounds-images-FHD-4k-download-2014-2015-2016-1024x576.jpg"
       parallaxOffset="100"
       minHeight="130vh"
-      color="white"
+      //color="lavenderblush"
       className="paraSolid"
       css={{
         boxShadow: "0px 10px 26px inset",
