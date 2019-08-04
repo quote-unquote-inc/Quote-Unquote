@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/* roboto-condensed-regular - latin */
 @font-face {
-  font-family: 'Arvo-auto';
-  font-display: auto;
-  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-condensed-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+       url('../fonts/roboto-condensed-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/roboto-condensed-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/roboto-condensed-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/roboto-condensed-v18-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
 }
 thead, tbody td:first-child { font-weight: bold }
 * {
-  font-family: Arvo-auto;
+  font-family: Roboto Condensed;
 }
 html {
   font-family: sans-serif;
@@ -207,7 +216,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+/*Keyword*/
 body {
   color: hsla(0, 0%, 0%, 0.8);
   background-color: whitesmoke;
