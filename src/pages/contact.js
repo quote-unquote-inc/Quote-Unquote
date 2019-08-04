@@ -110,6 +110,7 @@ const ContactPage = () => (
             type="text"
             name="name"
             id="name"
+            aria-label="Full Name"
             placeholder="Full Name"
             css={{
               textAlign: "center",
@@ -130,6 +131,7 @@ const ContactPage = () => (
             type="text"
             name="email"
             id="email"
+            aria-label="Email"
             placeholder="email@domain.com"
             css={{
               textAlign: "center",
@@ -150,6 +152,7 @@ const ContactPage = () => (
             type="text"
             name="phone"
             id="phone"
+            aria-label="Phone Number"
             placeholder="Phone (### ### ####)"
             css={{
               textAlign: "center",
@@ -169,6 +172,7 @@ const ContactPage = () => (
             name="message"
             id="message"
             rows="4"
+            aria-label="Message"
             placeholder="Type Your Message Here"
             required
             css={{

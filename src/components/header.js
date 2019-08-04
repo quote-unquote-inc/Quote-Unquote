@@ -23,6 +23,8 @@ const Header = ({ siteTitle, menuLinks }) => (
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
+          aria-label='QUQ Logo'
+          title='Navigation Logo'
           style={{
             color: `white`,
             textDecoration: `none`,
