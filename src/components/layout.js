@@ -48,6 +48,12 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        
+      </div>
+    </>
+  )
+}
+/*
         <footer
           style={{
             bottom: 0,
@@ -61,12 +67,8 @@ const Layout = ({ children }) => {
         >
           <p style={{opacity:'1', margin:'0', boxShadow:'0px -5px 13px' }}>© {new Date().getFullYear()}, QUOTE... UNQUOTE, INC. (QUQ) IS A 501C3
           TAX-EXEMPT NONPROFIT INCORPORATED IN 1979.</p>
-        </footer>
-      </div>
-    </>
-  )
-}
-
+        </footer> 
+*/
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }

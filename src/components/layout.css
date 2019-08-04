@@ -14,7 +14,7 @@
 }
 thead, tbody td:first-child { font-weight: bold }
 * {
-  font-family: Roboto Condensed;
+  font-display: Roboto Condensed;
 }
 html {
   font-family: sans-serif;
