@@ -15,7 +15,7 @@ const Construct = () => (
       }
     }}
     logo={{
-      src: 'https://image.ibb.co/b7guP5/Rubbby_without_text.png',
+      src: 'https://i.ibb.co/8b79pCD/QUQupd.png',
       alt: 'QUQ Logo'
     }}
     description={{
@@ -33,7 +33,7 @@ const Construct = () => (
     }}
     links={[
       {
-        url: 'https://www.facebook.com/',
+        url: 'https://www.facebook.com/SoundingTheTruth',
         image: 'https://image.flaticon.com/icons/svg/220/220200.svg',
       },
       {
