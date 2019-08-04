@@ -1,7 +1,11 @@
 @font-face {
-  font-family: 'Arvo';
+  font-family: 'Arvo-auto';
   font-display: auto;
   src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+thead, tbody td:first-child { font-weight: bold }
+* {
+  font-family: Arvo-auto;
 }
 html {
   font-family: sans-serif;
