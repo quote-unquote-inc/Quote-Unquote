@@ -40,7 +40,7 @@ const AltParallax = () => (
             padding: "26px",
             color: "white",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -71,7 +71,7 @@ const AltParallax = () => (
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -82,7 +82,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
@@ -118,7 +118,7 @@ const AltParallax = () => (
             color: "white",
             padding: "26px",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -135,7 +135,7 @@ const AltParallax = () => (
       css={{
         boxShadow: "0px 10px 26px inset",
         "@media(max-width: 480px)": {
-          minHeight: "120vh",
+          minHeight: "120vh !important",
         },
       }}
     >
@@ -149,7 +149,7 @@ const AltParallax = () => (
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -160,7 +160,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
@@ -172,7 +172,7 @@ const AltParallax = () => (
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -183,7 +183,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
@@ -221,7 +221,7 @@ const AltParallax = () => (
             color: "white",
             padding: "26px",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -238,7 +238,7 @@ const AltParallax = () => (
       css={{
         boxShadow: "0px 10px 26px inset",
         "@media(max-width: 480px)": {
-          minHeight: "120vh",
+          minHeight: "120vh !important",
         },
       }}
     >
@@ -263,7 +263,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
@@ -274,7 +274,7 @@ const AltParallax = () => (
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -285,7 +285,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
@@ -296,7 +296,7 @@ const AltParallax = () => (
           css={{
             fontSize: "3.25rem",
             "@media(max-width: 480px)": {
-              fontSize: "3rem",
+              fontSize: "3rem !important",
             },
           }}
         >
@@ -308,7 +308,7 @@ const AltParallax = () => (
             fontSize: "1.5rem",
             lineHeight: "36px",
             "@media(max-width: 480px)": {
-              fontSize: "1.3rem",
+              fontSize: "1.3rem !important",
             },
           }}
         >
