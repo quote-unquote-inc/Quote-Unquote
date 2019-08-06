@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 //import IndexParallax from "../components/parallax"
 //import StyledMultiBackground from "../components/multiback"
 import AltParallax from "../components/index"
+//import MyComponent from "../components/index2"
 
 
 import "../components/parallax.scss"
