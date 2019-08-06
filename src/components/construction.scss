@@ -1,19 +1,53 @@
 body {
     overflow: visible;
 }
+
 .UnderConstruction-container {
     margin-top: 0;
 }
+
 .UnderConstruction-social-networks {
     position: inherit;
 }
+
 .UnderConstruction-overlay {
-    top: 125px;
-    height: 75%;
+    top: 124px;
+    height: 80.6%;
+    overflow: hidden;
+
+    @media only screen and (max-width: 800px) {
+        top: 113px;
+        height: 89vh;
+    }
+
+    @media only screen and (max-width: 420px) {
+        top: 109px;
+        height: 90vh;
+    }
+
+    @media only screen and (max-width: 375px) {
+        top: 99px;
+        height: 87vh;
+    }
 }
+
 .UnderConstruction-logo {
     margin-top: 4vh;
 }
+
 .UnderConstruction {
-    height: 75vh;
+    height: 80.6vh;
+    overflow: hidden;
+
+    @media only screen and (max-width: 800px) {
+        height: 89vh;
+    }
+
+    @media only screen and (max-width: 420px) {
+        height: 90vh;
+    }
+
+    @media only screen and (max-width: 375px) {
+        height: 87vh;
+    }
 }
