@@ -10,7 +10,7 @@ module.exports = {
       },
       {
         name: "about us",
-        link: "/about",
+        link: "/underConstruction",
       },
       {
         name: "services",
@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         name: "news",
-        link: "/news",
+        link: "/underConstruction",
       },
       {
         name: "contact us",
