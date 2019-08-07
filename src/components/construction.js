@@ -22,7 +22,7 @@ const MultiBackground = ({ children, className }) => {
           }
         }
         seamlessBackground: file(
-          relativePath: { eq: "ancientart.jpeg" }
+          relativePath: { eq: "artCogs.jpeg" }
         ) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 2420) {
