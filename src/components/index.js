@@ -44,7 +44,7 @@ const AltParallax = () => (
                   },
                }}
             >
-               Quote Unquote, Inc. is relaunching operations!
+               Ya’at’eeh! Greetings! Welcome to Quote Unquote Media Center!
             </H1>
          </div>
       </LazyHero>
@@ -86,11 +86,13 @@ const AltParallax = () => (
                   },
                }}
             >
-               Quote Unquote, Inc. is a nationally recognized non-profit media
-               organization that has provided public access and local
-               origination programs to the Albuquerque area since 1981. We
-               strive to inspire open communication between the public through
-               various forms of media, to help keep true Democracy alive.
+               Quote Unquote, Inc. is a nationally recognized non-profit
+               multi-media broadcaster focusing on indigenous, cultural,
+               educational, and social justice content. Quote Unquote has provided public
+               access and local origination programs to the Albuquerque area
+               since 1981. We strive to inspire open communication between the
+               public through various forms of media, to help keep true
+               Democracy alive. 
             </p>
          </div>
       </LazyHero>
