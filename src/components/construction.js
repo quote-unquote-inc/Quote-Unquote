@@ -14,7 +14,7 @@ const MultiBackground = ({ children, className }) => {
   } = useStaticQuery(
     graphql`
       query {
-        astronaut: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        astronaut: file(relativePath: { eq: "QUQlogo.png" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 30) {
               ...GatsbyImageSharpFluid_withWebp
