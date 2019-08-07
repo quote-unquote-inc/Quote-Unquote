@@ -54,6 +54,9 @@ const MultiBackground = ({ children, className }) => {
                   backgroundColor: "rgba(0, 0, 0, 0.5)",
                   padding: "13px",
                   borderRadius: "13px",
+                  "@media(max-width: 480px)": {
+                      width: "90vw",
+                  }
                }}
             >
                <div css={{}}>

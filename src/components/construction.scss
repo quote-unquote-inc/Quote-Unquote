@@ -3,40 +3,44 @@ body {
 }
 
 .UnderConstruction-container {
-    margin-top: 0;
+    margin-top: -243px;
 }
 
 .UnderConstruction-social-networks {
     position: inherit;
 }
 
+
 .UnderConstruction-overlay {
-    top: 124px;
-    height: 80.6%;
+    top: 0px;
+    height: 100%;
     overflow: hidden;
 
     @media only screen and (max-width: 800px) {
-        top: 113px;
-        height: 89vh;
+        top: 0px;
+        height: 91.6vh;
     }
 
     @media only screen and (max-width: 420px) {
-        top: 109px;
-        height: 90vh;
+        top: 0px;
+        height: 91.6vh;
     }
 
     @media only screen and (max-width: 375px) {
-        top: 99px;
-        height: 87vh;
+        top: 0px;
+        height: 91.6vh;
     }
 }
 
-.UnderConstruction-logo {
+.UnderConstruction-social-networks {
     margin-top: 4vh;
+} 
+.UnderConstruction-logo {
+    margin-top: 16vh;
 }
 
 .UnderConstruction {
-    height: 80.6vh;
+    height: 74.3vh;
     overflow: hidden;
 
     @media only screen and (max-width: 800px) {
@@ -49,5 +53,11 @@ body {
 
     @media only screen and (max-width: 375px) {
         height: 87vh;
+    }
+}
+
+.UnderConstruction-description {
+    @media only screen and (max-width: 420px) {
+        width: 300px;
     }
 }
