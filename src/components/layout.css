@@ -638,17 +638,37 @@ pre tt:after {
 }
 
 /* Media Queries */
+@media only screen and (max-width: 1364px) {
+  .mainDiv {
+    padding-bottom: 180px !important;
+  }
+
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+  .mainDiv {
+    padding-bottom: 297px !important;
+  }
 }
-@media only screen and (max-width: 1366px) {
 
-}
 
 ::selection {
   background-color: #BE0405;
   color: antiquewhite;
+}
+
+
+
+* {
+ box-sizing: border-box;
+}*:before,
+*:after {
+ box-sizing: border-box;
+}html,
+body {
+ height: 100%;
+ position: relative;
 }
 
