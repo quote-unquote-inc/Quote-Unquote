@@ -58,35 +58,31 @@ const MultiBackground = ({ children, className }) => {
               color: '#000',
               opacity: '.5'
             }
-    }}
-    logo={{
-      src: 'https://i.ibb.co/8b79pCD/QUQupd.png',
-      alt: 'QUQ Logo'
-    }}
-    description={{
-      text: 'Our website is under construction. We are hard at work to bring you more content, so check back soon!',
-      css: {
-        maxWidth: '640px',
-      }
-    }}
-    links={[
-      {
-        url: 'https://www.facebook.com/SoundingTheTruth',
-        image: 'https://image.flaticon.com/icons/svg/220/220200.svg',
-      },
-      {
-        url: 'mailto:info@quote-unquote.org',
-        image: 'https://image.flaticon.com/icons/svg/321/321817.svg',
-      },
-    ]}
-  />
+          }}
+          logo={{
+            src: 'https://i.ibb.co/8b79pCD/QUQupd.png',
+            alt: 'QUQ Logo'
+          }}
+          description={{
+            text: 'Our website is under construction. We are hard at work to bring you more content, so check back soon! You can donate to help support us in our development, or send us a direct message for information on submitting content.',
+            css: {
+              maxWidth: '640px',
+            }
+          }}
+          links={[
+            {
+              url: 'mailto:info@quote-unquote.org',
+              image: 'https://image.flaticon.com/icons/svg/321/321817.svg',
+            },
+          ]}
+        />
       </StyledInnerWrapper>
     </BackgroundImage>
   )
 }
 
 const StyledInnerWrapper = styled.div`
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;  
   flex-direction: column; 
   align-items: center;

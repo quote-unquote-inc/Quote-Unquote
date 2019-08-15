@@ -652,7 +652,9 @@ pre tt:after {
     padding-bottom: 297px !important;
   }
 }
-
+.freebirdFormviewerViewCenteredContent {
+  max-width: none !important;
+}
 
 ::selection {
   background-color: #BE0405;

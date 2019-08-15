@@ -11,7 +11,7 @@ const ServicesPage = () => (
       <iframe
          src="https://docs.google.com/forms/d/e/1FAIpQLSe5Zv4uBOEwSPY3QAhGd0gI-vyZd7bFhICbIV_73G_T3bYk-w/viewform?embedded=true"
          width="690"
-         height="400"
+         height="326"
          frameborder="0"
          title="Program Submission Form"
          className="ProgrammingForm"
@@ -19,6 +19,7 @@ const ServicesPage = () => (
          marginwidth="0"
          css={{
            border: "none",
+           maxWidth: "none",
             "@media(max-width: 480px)": {
                width: "300px !important",
             },
