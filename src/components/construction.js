@@ -82,7 +82,7 @@ const MultiBackground = ({ children, className }) => {
 }
 
 const StyledInnerWrapper = styled.div`
-  margin-top: 2%;
+  margin-top: 1%;
   display: flex;  
   flex-direction: column; 
   align-items: center;
@@ -90,7 +90,7 @@ const StyledInnerWrapper = styled.div`
 
 const Construct = styled(MultiBackground)`
   width: 100%;
-  max-height: 63vh;
+  max-height: 100vh;
   /* You should set a background-size as the default value is "cover"! */
   background-size: auto, auto, cover;
   /* So we won't have the default "lightgray" background-color. */

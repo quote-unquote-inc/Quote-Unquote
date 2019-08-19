@@ -44,6 +44,15 @@ module.exports = {
          },
       },
       {
+         resolve: `gatsby-source-contentful`,
+         options: {
+            spaceId: `ab6dp88mt3bz`,
+            // Learn about environment variables: https://gatsby.dev/env-vars
+            //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+            accessToken: `kIvhTZVAyoYt8cvnwnagsoLqbyGVadAUnD0aF19zsmg`,
+         },
+      },
+      {
          resolve: `gatsby-plugin-google-analytics`,
          options: {
             // replace "UA-XXXXXXXXX-X" with your own Tracking ID
