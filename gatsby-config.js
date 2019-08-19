@@ -17,6 +17,10 @@ module.exports = {
             link: "/services",
          },
          {
+            name: "KQUQ",
+            link: "/underConstruction",
+         },
+         {
             name: "news",
             link: "/underConstruction",
          },
