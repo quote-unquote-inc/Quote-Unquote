@@ -19,7 +19,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             style={{
                margin: `0`,
                maxWidth: 420,
-               marginBottom: "-45px",
+               //marginBottom: "-45px",
 
                //padding: `1.45rem 1.0875rem`,
             }}
