@@ -16,13 +16,13 @@ module.exports = {
             name: "services",
             link: "/services",
          },
-         {
+         /*{
             name: "KQUQ",
             link: "/underConstruction",
-         },
+         },*/
          {
             name: "news",
-            link: "/underConstruction",
+            link: "/news",
          },
          {
             name: "contact us",

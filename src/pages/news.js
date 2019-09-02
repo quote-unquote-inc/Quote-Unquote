@@ -9,11 +9,24 @@ const News = ({ data }) => {
    return (
       <Layout>
          <SEO title="News" />
+         <div className="boardMeetings" style={{
+             padding: "13px",
+             marginTop: "13px",
+         }}>
          <h1>{"Upcoming Board Meetings"}</h1>
-         <div className="boardMeetings">
+         
             {boardMeeting.map(({ node: post }) => (
-               <div key={post.id}>
-                  <Link to={`/news/${post.slug}`}>{post.title}</Link>
+               <div key={post.id} css={{
+                   fontSize: "23px",
+                   width: "max-content",
+                   transition: ".5s",
+                   margin: "auto",
+                   ":hover":{
+                       transform: "scale(1.3)",
+                       transition: ".7s"
+                   }
+               }}>
+                  <Link css={{color: "black", transition: ".5s", ":hover":{color: "red", transition:".7s", transform: "scale(1.3)"}}} to={`/news/${post.slug}`}>{post.title}</Link>
                </div>
             ))}
             <span className="mgBtm__24" />
