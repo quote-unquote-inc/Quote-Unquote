@@ -22,7 +22,7 @@ const News = ({ data }) => {
                    transition: ".5s",
                    margin: "auto",
                    ":hover":{
-                       transform: "scale(1.3)",
+                       transform: "scale(1.1)",
                        transition: ".7s"
                    }
                }}>
