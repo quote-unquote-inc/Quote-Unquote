@@ -43,7 +43,7 @@ module.exports = {
             path: `${__dirname}/src/images`,
          },
       },
-      /*{
+      {
          resolve: `gatsby-source-contentful`,
          options: {
             spaceId: `ab6dp88mt3bz`,
@@ -51,7 +51,7 @@ module.exports = {
             //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
             accessToken: `kIvhTZVAyoYt8cvnwnagsoLqbyGVadAUnD0aF19zsmg`,
          },
-      },*/
+      },
       {
          resolve: `gatsby-plugin-google-analytics`,
          options: {
