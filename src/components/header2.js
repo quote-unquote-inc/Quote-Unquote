@@ -26,7 +26,6 @@ const Header = ({ siteTitle, menuLinks }) => (
             paddingTop: "7px",
          }}
       >
-<<<<<<< HEAD
          <input type="hidden" name="cmd" value="_s-xclick" />
          <input type="hidden" name="hosted_button_id" value="UAR5TRWNEMGGW" />
          <input
@@ -51,25 +50,6 @@ const Header = ({ siteTitle, menuLinks }) => (
             margin: `0`,
             maxWidth: 420,
             //marginBottom: "-45px",
-=======
-         <div
-            className="logoWrapper"
-            style={{
-               margin: `0`,
-               maxWidth: 420,
-               marginBottom: "-45px",
-
-               //padding: `1.45rem 1.0875rem`,
-            }}
-         >
-            <h1 className="logoLink" style={{ margin: 0, padding: "7px" }}>
-               <Link
-                  to="/"
-                  aria-label="QUQ Logo"
-                  title="Quote Unquote Logo"
-                  style={{
-                     color: `white`,
->>>>>>> parent of 46d8a58... Fixed issue with navbar on older browsers
 
             //padding: `1.45rem 1.0875rem`,
          }}
