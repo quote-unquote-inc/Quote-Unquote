@@ -1,14 +1,16 @@
 import React from "react"
-//import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-const News = () => {
-   return (
-      <Layout>
-         <SEO title="Blog posts" />
-         
-      </Layout>
-   )
-}
-export default News
 
+const NewsPage = () => (
+  <Layout>
+    <SEO title="News" />
+    <h1>THIS WILL BE THE NEWS PAGE</h1>
+    <p>Welcome to the news</p>
+    <Link to="/">Go back to the homepage</Link>
+  </Layout>
+)
+
+export default NewsPage
