@@ -93,11 +93,18 @@ const AltParallax = () => (
                public through various forms of media, to help keep true
                Democracy alive.*/
             >
-               
-
-               We are a non-profit, non-commercial multi-media broadcasting company with a 40-year history of supporting community media by providing access to training, resources and outlets to air and value the diversity of voices and cultures in Central New Mexico and beyond.
+               We are a non-profit, non-commercial multi-media broadcasting
+               company with a 40-year history of supporting community media by
+               providing access to training, resources and outlets to air and
+               value the diversity of voices and cultures in Central New Mexico
+               and beyond.<br />
+               <br /> We focus on providing educational, informative,
+               cultural content, with a goal of supporting an indigenous media
+               network. Quote Unquote has provided public access and local
+               origination programs to the Albuquerque area since 1981. We
+               strive to inspire open communication between the public through
+               various forms of media, to help keep true Democracy alive.
             </p>
-             
          </div>
       </LazyHero>
 
@@ -151,6 +158,15 @@ const AltParallax = () => (
                width: "90vw",
             }}
          >
+            <p
+               css={{
+                  fontSize: "1.3rem",
+                  lineHeight: "36px",
+                  "@media(max-width: 480px)": {
+                     fontSize: "1.1rem !important",
+                  },
+               }}
+            ></p>
             <H1
                css={{
                   fontSize: "2.6rem",
