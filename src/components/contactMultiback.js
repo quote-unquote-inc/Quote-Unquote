@@ -55,16 +55,16 @@ const MultiBackground = ({ children, className }) => {
                   padding: "13px",
                   borderRadius: "13px",
                   "@media(max-width: 480px)": {
-                      width: "90vw",
-                  }
+                     width: "90vw",
+                  },
                }}
             >
                <div css={{}}>
                   <H1
                      css={{
-                        fontSize: "3.25rem",
+                        fontSize: "3.5rem",
                         "@media(max-width: 480px)": {
-                           fontSize: "3rem",
+                           fontSize: "3.25rem",
                         },
                      }}
                   >
@@ -79,22 +79,30 @@ const MultiBackground = ({ children, className }) => {
                         },
                      }}
                   >
-                     Call us @{" "}
-                     <a
+                     <H1
                         css={{
-                           color: "white",
-                           ":hover": {
-                              color: "darkred",
+                           fontSize: "2.6rem",
+                           margin: "13px",
+                           "@media(max-width: 480px)": {
+                              fontSize: "2rem",
                            },
                         }}
-                        href="tel:+15055017700"
                      >
-                        (505) 501-7700
-                     </a>
+                        Mailing Address
+                     </H1>
+                     PO Box 26206, Albuquerque, NM 87125
                      <br />
-                     Reach us by mail @ PO Box 26206, Albuquerque, NM 87107
-                     <br />
-                     Or come see us @{" "}
+                     <H1
+                        css={{
+                           fontSize: "2.6rem",
+                           margin: "13px",
+                           "@media(max-width: 480px)": {
+                              fontSize: "2rem",
+                           },
+                        }}
+                     >
+                        Administration Office
+                     </H1>
                      <a
                         css={{
                            color: "white",
@@ -108,12 +116,60 @@ const MultiBackground = ({ children, className }) => {
                      >
                         5005 4th St. NW Ste. 102, Albuquerque NM 87107
                      </a>
+                     <br />
+                     <a
+                        css={{
+                           color: "white",
+                           ":hover": {
+                              color: "darkred",
+                           },
+                        }}
+                        href="tel:+15055017700"
+                     >
+                        (505) 501-7700
+                     </a>
+                     <H1
+                        css={{
+                           fontSize: "2.6rem",
+                           margin: "13px",
+                           "@media(max-width: 480px)": {
+                              fontSize: "2rem",
+                           },
+                        }}
+                     >
+                        RFK Charter School KQUQ CAMP Site 1
+                     </H1>
+                     <a
+                        css={{
+                           color: "white",
+                           ":hover": {
+                              color: "darkred",
+                           },
+                        }}
+                        href="http://maps.google.com/?q=4300 Blake Rd. SW, Albuquerque NM 87121"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
+                        4300 Blake Rd. SW, Albuquerque NM 87121
+                     </a>
+                     <br />
+                     <a
+                        css={{
+                           color: "white",
+                           ":hover": {
+                              color: "darkred",
+                           },
+                        }}
+                        href="tel:+15052431118"
+                     >
+                        (505) 243-1118
+                     </a>
                   </p>
                   <H1
                      css={{
-                        fontSize: "3.25rem",
+                        fontSize: "3.5rem",
                         "@media(max-width: 480px)": {
-                           fontSize: "3rem",
+                           fontSize: "3.25rem",
                         },
                      }}
                   >
@@ -217,7 +273,7 @@ const MultiBackground = ({ children, className }) => {
                      />
                      <input
                         type="submit"
-                        value="Send Message"
+                        value="Submit"
                         css={{
                            margin: "0 20%",
                            borderRadius: "13px",
