@@ -85,13 +85,7 @@ const AltParallax = () => (
                      fontSize: "1rem !important",
                   },
                }}
-               /*Quote Unquote, Inc. is a nationally recognized non-profit
-               multi-media broadcaster focusing on indigenous, cultural,
-               educational, and social justice content. Quote Unquote has provided public
-               access and local origination programs to the Albuquerque area
-               since 1981. We strive to inspire open communication between the
-               public through various forms of media, to help keep true
-               Democracy alive.*/
+               
             >
                We are a non-profit, non-commercial multi-media broadcasting
                company with a 40-year history of supporting community media by
