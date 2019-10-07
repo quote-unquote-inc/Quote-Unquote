@@ -69,9 +69,9 @@ const AltParallax = () => (
          >
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 480px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -79,21 +79,25 @@ const AltParallax = () => (
             </H1>
             <p
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1rem !important",
                   },
                }}
-            >
-               Quote Unquote, Inc. is a nationally recognized non-profit
+               /*Quote Unquote, Inc. is a nationally recognized non-profit
                multi-media broadcaster focusing on indigenous, cultural,
                educational, and social justice content. Quote Unquote has provided public
                access and local origination programs to the Albuquerque area
                since 1981. We strive to inspire open communication between the
                public through various forms of media, to help keep true
-               Democracy alive. 
+               Democracy alive.*/
+            >
+               
+
+               We are a non-profit, non-commercial multi-media broadcasting company with a 40-year history of supporting community media by providing access to training, resources and outlets to air and value the diversity of voices and cultures in Central New Mexico and beyond.
             </p>
+             
          </div>
       </LazyHero>
 
@@ -101,7 +105,7 @@ const AltParallax = () => (
          imageSrc={require("../images/ancientart2.jpeg")}
          className="paraImage"
          parallaxOffset="100"
-         minHeight="100vh"
+         minHeight="70vh"
          opacity="0.4"
          css={{
             boxShadow: "0px -8px 26px",
@@ -149,9 +153,9 @@ const AltParallax = () => (
          >
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 480px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -159,10 +163,10 @@ const AltParallax = () => (
             </H1>
             <p
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1.1rem !important",
                   },
                }}
             >
@@ -172,9 +176,9 @@ const AltParallax = () => (
             </p>
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 480px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -182,10 +186,10 @@ const AltParallax = () => (
             </H1>
             <p
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1rem !important",
                   },
                }}
             >
@@ -203,7 +207,7 @@ const AltParallax = () => (
          imageSrc={require("../images/camera.jpeg")}
          className="paraImage"
          parallaxOffset="100"
-         minHeight="100vh"
+         minHeight="70vh"
          opacity="0.4"
          css={{
             boxShadow: "0px -8px 26px",
@@ -252,9 +256,9 @@ const AltParallax = () => (
          >
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 490px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -262,10 +266,10 @@ const AltParallax = () => (
             </H1>
             <p
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1rem !important",
                   },
                }}
             >
@@ -274,9 +278,9 @@ const AltParallax = () => (
             </p>
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 480px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -284,10 +288,10 @@ const AltParallax = () => (
             </H1>
             <p
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1rem !important",
                   },
                }}
             >
@@ -296,9 +300,9 @@ const AltParallax = () => (
             </p>
             <H1
                css={{
-                  fontSize: "3.25rem",
+                  fontSize: "2.6rem",
                   "@media(max-width: 480px)": {
-                     fontSize: "3rem !important",
+                     fontSize: "2rem !important",
                   },
                }}
             >
@@ -307,10 +311,10 @@ const AltParallax = () => (
             <p
                className=""
                css={{
-                  fontSize: "1.5rem",
+                  fontSize: "1.3rem",
                   lineHeight: "36px",
                   "@media(max-width: 480px)": {
-                     fontSize: "1.3rem !important",
+                     fontSize: "1rem !important",
                   },
                }}
             >
