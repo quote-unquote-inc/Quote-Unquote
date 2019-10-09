@@ -279,6 +279,7 @@ const MultiBackground = ({ children, className }) => {
                            borderRadius: "13px",
                            background: "rgba(0, 0, 0, 0.4)",
                            color: "white",
+                           cursor: "pointer",
                            ":active": {
                               backgroundColor: "#BE0405",
                            },
