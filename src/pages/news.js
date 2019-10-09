@@ -20,6 +20,7 @@ const News = ({ data }) => {
                    fontSize: "23px",
                    width: "max-content",
                    transition: ".5s",
+                   paddingTop: "1%",
                    margin: "auto",
                    ":hover":{
                        transform: "scale(1.1)",
