@@ -15,6 +15,14 @@ exports.createPages = ({ graphql, actions }) => {
                   }
                }
             }
+            allContentfulNews {
+               edges {
+                  node {
+                     id
+                     slug
+                  }
+               }
+            }
          }
       `
    )
@@ -24,7 +32,10 @@ exports.createPages = ({ graphql, actions }) => {
          }
 
          // Resolve the paths to our template
-         const boardMeetingTemplate = path.resolve("./src/templates/boardMeeting.js")
+         const boardMeetingTemplate = path.resolve(
+            "./src/templates/boardMeeting.js"
+         )
+         const newsTemplate = path.resolve("./src/templates/news.js")
 
          // Then for each result we create a page.
          result.data.allContentfulBoardMeeting.edges.forEach(edge => {
@@ -37,13 +48,23 @@ exports.createPages = ({ graphql, actions }) => {
                },
             })
          })
+         result.data.allContentfulNews.edges.forEach(edge => {
+            createPage({
+               path: `/news/${edge.node.slug}/`,
+               component: slash(newsTemplate),
+               context: {
+                  slug: edge.node.slug,
+                  id: edge.node.id,
+               },
+            })
+         })
       })
       .catch(error => {
          console.log("Error retrieving contentful data", error)
       })
 }
 
-exports.createPages = ({ graphql, actions }) => {
+/*exports.createPages = ({ graphql, actions }) => {
    const { createPage } = actions
    // we use the provided allContentfulBlogPost query to fetch the data from Contentful
    return graphql(
@@ -86,3 +107,4 @@ exports.createPages = ({ graphql, actions }) => {
          console.log("Error retrieving contentful data", error)
       })
 }
+*/

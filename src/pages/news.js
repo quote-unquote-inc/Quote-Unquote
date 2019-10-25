@@ -11,7 +11,7 @@ const News = ({ data }) => {
       <Layout>
          <SEO title="News" />
          <div
-            className="newpageCopnatiner"
+            className="newpageConatiner"
             css={{
                display: "flex",
                flexGrow: 0,
