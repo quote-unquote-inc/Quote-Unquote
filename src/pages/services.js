@@ -8,26 +8,31 @@ const ServicesPage = () => (
    <Layout>
       <SEO title="Services" />
       <h1>Programming</h1>
-      <iframe
-         src="https://docs.google.com/forms/d/e/1FAIpQLSe5Zv4uBOEwSPY3QAhGd0gI-vyZd7bFhICbIV_73G_T3bYk-w/viewform?embedded=true"
-         width="690"
-         height="326"
-         frameborder="0"
-         title="Program Submission Form"
-         className="ProgrammingForm"
-         marginheight="0"
-         marginwidth="0"
-         css={{
-            border: "none",
-            maxWidth: "none",
-            "@media(max-width: 480px)": {
-               width: "300px !important",
-            },
-         }}
-      >
-         Loading…
-      </iframe>
-      
+      <div className="programmingForm" css={{
+         overflow: "hidden",
+         // Calculated from the aspect ration of the content (in case of 16:9 it is 9/16= 0.5625)
+         position: "relative",
+      }}>
+         <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSe5Zv4uBOEwSPY3QAhGd0gI-vyZd7bFhICbIV_73G_T3bYk-w/viewform?embedded=true"
+            width="690"
+            height="420"
+            frameborder="0"
+            title="Program Submission Form"
+            className="ProgrammingForm"
+            marginheight="0"
+            marginwidth="0"
+            css={{
+               border: "none",
+               maxWidth: "none",
+               "@media(max-width: 480px)": {
+                  width: "300px !important",
+               },
+            }}
+         >
+            Loading…
+         </iframe>
+      </div>
    </Layout>
 )
 

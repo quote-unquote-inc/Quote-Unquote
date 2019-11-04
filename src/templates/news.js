@@ -31,7 +31,7 @@ const News = ({ data }) => {
             >
                {body.body}
             </p>
-            <Link to="/news">Go back</Link>
+            <Link to="/news">&larr; Go back</Link>
          </div>
       </Layout>
    )
