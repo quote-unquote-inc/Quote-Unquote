@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 import React from "react"
 //import { Link } from "gatsby"
 
@@ -6,23 +7,39 @@ import SEO from "../components/seo"
 
 import RFKLogo from "../components/RFKLogo"
 import GRRLogo from "../components/GRRLogo"
+import AHCCLogo from "../components/ahccLogo"
+import RIPLogo from "../components/ripLogo"
 
 const PartnersPage = () => (
    <Layout>
       <SEO title="Partners" />
       <h1>Quote Unquote is proudly partnered with:</h1>
       <div
-         style={{
-            margin: `13px`,
-            marginBottom: `26px`,
+         css={{
+            //margin: `13px`,
+            //marginBottom: `26px`,
+            display: `-webkit-flex; /_ Safari _/`,
+            display: `flex`,
+            flexDirection: `row`,
+            webkitFlexWrap: `wrap; /_ Safari _/`,
+            flexWrap: `wrap`,
+            alignItems: `center`,
+            justifyContent: `space-around`,
          }}
       >
          <div
-            style={{
-               margin: `0 auto`,
+            css={{
+               //margin: `0 auto`,
                padding: `13px`,
-               maxWidth: 300,
+               maxWidth: 240,
+               flexGrow: 1,
                //padding: `1.45rem 1.0875rem`,
+               "@media(min-width: 220px)": {
+                  minWidth: 280,
+               },
+               "@media(min-width: 800px)": {
+                  minWidth: 380,
+               },
             }}
          >
             <a
@@ -40,12 +57,18 @@ const PartnersPage = () => (
             </a>
          </div>
          <div
-            style={{
-               margin: `0 auto`,
-               width: `80%`,
+            css={{
+               //margin: `0 auto`,
+               flexGrow: 2,
                padding: `13px`,
-               maxWidth: 340,
+               maxWidth: 360,
                //padding: `1.45rem 1.0875rem`,
+               "@media(min-width: 220px)": {
+                  minWidth: 320,
+               },
+               "@media(min-width: 800px)": {
+                  minWidth: 380,
+               },
             }}
          >
             <a
@@ -60,6 +83,64 @@ const PartnersPage = () => (
                }}
             >
                <GRRLogo />
+            </a>
+         </div>
+         <div
+            css={{
+               //margin: `0 auto`,
+               flexGrow: 1,
+               padding: `13px`,
+               maxWidth: 240,
+               //padding: `1.45rem 1.0875rem`,
+               "@media(min-width: 220px)": {
+                  minWidth: 140,
+               },
+               "@media(min-width: 800px)": {
+                  minWidth: 280,
+               },
+            }}
+         >
+            <a
+               href="https://www.ahcnm.org/"
+               aria-label="Albuquerque Hispano Chamber of Congress Logo"
+               title="Albuquerque Hispano Chamber of Congress Logo"
+               rel="noopener noreferrer"
+               target="_blank"
+               style={{
+                  color: `white`,
+                  textDecoration: `none`,
+               }}
+            >
+               <AHCCLogo />
+            </a>
+         </div>
+         <div
+            css={{
+               //margin: `0 auto`,
+               flexGrow: 1,
+               padding: `13px`,
+               maxWidth: 200,
+               //padding: `1.45rem 1.0875rem`,
+               "@media(min-width: 220px)": {
+                  minWidth: 70,
+               },
+               "@media(min-width: 800px)": {
+                  minWidth: 280,
+               },
+            }}
+         >
+            <a
+               href="https://reelindianpictures.com/"
+               aria-label="Reel Indian Pictures Logo"
+               title="Reel Indian Pictures Logo"
+               rel="noopener noreferrer"
+               target="_blank"
+               style={{
+                  color: `white`,
+                  textDecoration: `none`,
+               }}
+            >
+               <RIPLogo />
             </a>
          </div>
       </div>

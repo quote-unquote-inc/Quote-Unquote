@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
    siteMetadata: {
       title: `Quote Unquote, Inc.`,
@@ -78,6 +79,18 @@ module.exports = {
             plugins: [`gatsby-remark-responsive-iframe`],
          },
       },
+      /*{
+         resolve: 'gatsby-plugin-eslint',
+         options: {
+           test: /\.js$|\.jsx$/,
+           exclude: /(node_modules|.cache|public)/,
+           stages: ['develop'],
+           options: {
+             emitWarning: true,
+             failOnError: false,
+           },
+         },
+       },*/
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
       {

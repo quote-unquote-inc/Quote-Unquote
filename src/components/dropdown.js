@@ -1,12 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react"
 //import { FaFacebook, FaGithub } from "react-icons/fa"
 
-import("./about.scss")
+import("./about.scss");
 
 const Dropdown = () => (
-   <div className="wrap-collabsible">
+   <div className="wrap-collapsible">
       <input id="collapsible" className="toggle" type="checkbox" />
-      <label for="collapsible" className="lbl-toggle">
+      <label htmlFor="collapsible" className="lbl-toggle">
          Highlights of QUQ's Accomplishments
       </label>
       <div className="collapsible-content">

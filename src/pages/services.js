@@ -17,11 +17,11 @@ const ServicesPage = () => (
             src="https://docs.google.com/forms/d/e/1FAIpQLSe5Zv4uBOEwSPY3QAhGd0gI-vyZd7bFhICbIV_73G_T3bYk-w/viewform?embedded=true"
             width="690"
             height="420"
-            frameborder="0"
+            frameBorder="0"
             title="Program Submission Form"
             className="ProgrammingForm"
-            marginheight="0"
-            marginwidth="0"
+            marginHeight="0"
+            marginWidth="0"
             css={{
                border: "none",
                maxWidth: "none",

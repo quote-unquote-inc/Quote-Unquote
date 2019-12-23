@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Implement Gatsby's Browser APIs in this file.
  *
@@ -16,4 +17,4 @@ export const onClientEntry = () => {
     import(`intersection-observer`)
     console.log(`# IntersectionObserver is polyfilled!`)
   }
-}
+} 

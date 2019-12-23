@@ -15,7 +15,7 @@ const MultiBackground = ({ children, className }) => {
          query {
             astronaut: file(relativePath: { eq: "QUQupd.png" }) {
                childImageSharp {
-                  fluid(quality: 100, maxWidth: 10) {
+                  fluid(quality: 100, maxWidth: 5) {
                      ...GatsbyImageSharpFluid_withWebp
                   }
                }
@@ -52,7 +52,7 @@ const MultiBackground = ({ children, className }) => {
                   color: "white",
                   width: "80vw",
                   backgroundColor: "rgba(0, 0, 0, 0.5)",
-                  padding: "13px",
+                  padding: "26px",
                   borderRadius: "13px",
                   "@media(max-width: 480px)": {
                      width: "90vw",
