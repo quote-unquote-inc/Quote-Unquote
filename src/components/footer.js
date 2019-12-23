@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import React from "react"
 import { FaFacebook, FaGithub } from "react-icons/fa"
 

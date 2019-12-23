@@ -92,6 +92,7 @@ module.exports = {
          },
        },*/
       `gatsby-transformer-sharp`,
+      `gatsby-plugin-eslint`,
       `gatsby-plugin-sharp`,
       {
          resolve: `gatsby-plugin-manifest`,
