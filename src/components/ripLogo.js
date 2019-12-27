@@ -7,7 +7,7 @@ const RIPLogo = () => {
       query {
          placeholderImage: file(relativePath: { eq: "RIPLogo.png" }) {
             childImageSharp {
-               fluid(maxWidth: 4000) {
+               fluid(maxWidth: 3000) {
                   ...GatsbyImageSharpFluid
                }
             }

@@ -7,7 +7,7 @@ const AHCCLogo = () => {
       query {
          placeholderImage: file(relativePath: { eq: "ahcc-logo.png" }) {
             childImageSharp {
-               fluid(maxWidth: 7000) {
+               fluid(maxWidth: 3000) {
                   ...GatsbyImageSharpFluid
                }
             }
