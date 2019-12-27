@@ -164,6 +164,29 @@ const MultiBackground = ({ children, className }) => {
                      >
                         (505) 243-1118
                      </a>
+                     <H1
+                        css={{
+                           fontSize: "2.3rem",
+                           margin: "13px",
+                           fontWeight: "bold",
+                           "@media(max-width: 480px)": {
+                              fontSize: "1.7rem",
+                           },
+                        }}
+                     >
+                        CAMP Site Coordinator - Roger Cultee
+                     </H1>
+                     <a
+                        css={{
+                           color: "white",
+                           ":hover": {
+                              color: "darkred",
+                           },
+                        }}
+                        href="tel:+15055825054"
+                     >
+                        (505) 582-5054
+                     </a>
                   </p>
                   <H1
                      css={{
