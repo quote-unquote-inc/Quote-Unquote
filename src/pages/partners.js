@@ -47,6 +47,9 @@ const PartnersPage = () => (
                "@media(min-width: 760px)": {
                   maxWidth: "30vw",
                },
+               "@media(min-width: 1020px)": {
+                  maxWidth: "20vw",
+               },
             }}
          >
             <a
@@ -77,7 +80,10 @@ const PartnersPage = () => (
                   width: "40vw",
                },
                "@media(min-width: 760px)": {
-                  maxWidth: "30vw",
+                  width: "30vw",
+               },
+               "@media(min-width: 1020px)": {
+                  maxWidth: "20vw",
                },
             }}
          >
@@ -109,7 +115,10 @@ const PartnersPage = () => (
                   width: "30vw",
                },
                "@media(min-width: 760px)": {
-                  maxWidth: "20vw",
+                  width: "20vw",
+               },
+               "@media(min-width: 1020px)": {
+                  maxWidth: "15vw",
                },
             }}
          >
@@ -144,7 +153,7 @@ const PartnersPage = () => (
                   maxWidth: "30vw",
                },
                "@media(min-width: 1020px)": {
-                  maxWidth: "20vw",
+                  maxWidth: "15vw",
                },
             }}
          >
@@ -179,7 +188,7 @@ const PartnersPage = () => (
                   maxWidth: "30vw",
                },
                "@media(min-width: 1020px)": {
-                  maxWidth: "20vw",
+                  maxWidth: "15vw",
                },
             }}
          >
@@ -214,7 +223,7 @@ const PartnersPage = () => (
                   maxWidth: "30vw",
                },
                "@media(min-width: 1020px)": {
-                  maxWidth: "20vw",
+                  maxWidth: "15vw",
                },
             }}
          >
