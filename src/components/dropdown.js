@@ -6,7 +6,7 @@ import React from "react"
 import("./about.scss");
 
 const Dropdown = () => (
-   <div className="wrap-collapsible">
+   <div className="wrap-collapsible" css={{ width:"90vw", margin:"auto" }}>
       <input id="collapsible" className="toggle" type="checkbox" />
       <label htmlFor="collapsible" className="lbl-toggle">
          Highlights of QUQ's Accomplishments
