@@ -1,14 +1,16 @@
 backend:
   name: git-gateway
+  accept_roles:
+    - admin
+    - editor
   branch: master
 
 media_folder: static/img
-public_folder: /img
 
 collections:
   - name: "boardMeeting"
     label: "BoardMeetings"
-    folder: "src/templates/boardMeeting"
+    folder: "static/img"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
@@ -20,7 +22,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "partners"
     label: "Partners"
-    folder: "src/templates/news"
+    folder: "static/img"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
