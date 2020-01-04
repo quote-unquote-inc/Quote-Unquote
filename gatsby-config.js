@@ -10,17 +10,17 @@ module.exports = {
             link: "/",
          },
          {
-            name: "about us",
+            name: "about",
             link: "/about",
          },
          {
             name: "services",
             link: "/services",
          },
-         {
-            name: "partners",
-            link: "/partners",
-         },
+         /*{
+            name: "Get Involved!",
+            link: "/get-involved",
+         },*/
          /*{
             name: "KQUQ",
             link: "/underConstruction",
@@ -30,7 +30,7 @@ module.exports = {
             link: "/news",
          },
          {
-            name: "contact us",
+            name: "contact",
             link: "/contact",
          },
       ],
