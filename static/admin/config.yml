@@ -8,7 +8,7 @@ backend:
 media_folder: static/img
 
 collections:
-  - name: "boardMeeting"
+  - name: "boardMeetings"
     label: "BoardMeetings"
     folder: "src/pages/boardMeetings"
     create: true
