@@ -14,22 +14,31 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-     preview: false
+     preview: true
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "board-meeting" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "partners"
     label: "Partners"
     folder: "src/pages/partners"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
-     preview: false
+     preview: true
     fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "partners" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "markdown" }
+      - {
+              label: "Partner Logo",
+              name: "PartnerLogo",
+              widget: "object",
+              fields:
+                [
+                  { label: "Image", name: "image", widget: "image" },
+                  { label: "Image Description", name: "imageAlt", widget: "string" },
+                ],
+        }
