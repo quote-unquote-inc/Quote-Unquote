@@ -50,6 +50,13 @@ module.exports = {
          },
       },
       {
+         resolve: `gatsby-source-filesystem`,
+         options: {
+            name: `partners`,
+            path: `${__dirname}/src/pages/partners`,
+         },
+      },
+      {
          resolve: `gatsby-source-contentful`,
          options: {
             spaceId: `ab6dp88mt3bz`,

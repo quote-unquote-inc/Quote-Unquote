@@ -64,6 +64,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
 }
 
+
 /*exports.createPages = ({ graphql, actions }) => {
    const { createPage } = actions
    // we use the provided allContentfulBlogPost query to fetch the data from Contentful
@@ -108,3 +109,37 @@ exports.createPages = ({ graphql, actions }) => {
       })
 }
 */
+
+//const path = require(`path`)
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions
+  const partnerTemplate = path.resolve(`src/templates/partner.js`)
+  const result = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            frontmatter {
+              path
+            }
+          }
+        }
+      }
+    }
+  `)
+  // Handle errors
+  if (result.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    createPage({
+      path: node.frontmatter.path,
+      component: partnerTemplate,
+      context: {}, // additional data can be passed via context
+    })
+  })
+}
