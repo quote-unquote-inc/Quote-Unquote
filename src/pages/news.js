@@ -29,7 +29,7 @@ const News = ({ data }) => {
                   padding: "13px",
                   marginTop: "13px",
                   order: 1,
-                  maxWidth: "40%"
+                  minWidth: "40%"
 
                }}
             >
@@ -39,7 +39,7 @@ const News = ({ data }) => {
                      key={post.id}
                      css={{
                         fontSize: "23px",
-                        width: "max-content",
+                        maxWidth: "50%",
                         transition: ".5s",
                         paddingTop: "1%",
                         margin: "auto",
