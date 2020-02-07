@@ -6,7 +6,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Dropdown from "../components/dropdown"
-import Partners from "../components/partners"
 //import "../components/about.scss"
 
 const AboutPage = () => (
@@ -45,8 +44,6 @@ const AboutPage = () => (
          </ol>
       </div>
       <Dropdown />
-      <h1>We are proudly partnered with:</h1>
-      <Partners />
    </Layout>
 )
 
