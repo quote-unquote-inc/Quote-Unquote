@@ -109,7 +109,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
 }
 */
-
+/*
 //const path = require(`path`)
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
@@ -142,4 +142,4 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {}, // additional data can be passed via context
     })
   })
-}
+}*/

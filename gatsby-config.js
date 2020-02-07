@@ -41,19 +41,11 @@ module.exports = {
       `gatsby-plugin-sass`,
       `gatsby-plugin-styled-components`,
       `gatsby-plugin-react-helmet`,
-      `gatsby-plugin-netlify-cms`,
       {
          resolve: `gatsby-source-filesystem`,
          options: {
             name: `images`,
             path: `${__dirname}/src/images`,
-         },
-      },
-      {
-         resolve: `gatsby-source-filesystem`,
-         options: {
-            name: `partners`,
-            path: `${__dirname}/src/pages/partners`,
          },
       },
       {
