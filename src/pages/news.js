@@ -29,7 +29,7 @@ const News = ({ data }) => {
                   padding: "13px",
                   marginTop: "13px",
                   order: 1,
-                  minWidth: "40%"
+                  maxWidth: "40%"
 
                }}
             >
