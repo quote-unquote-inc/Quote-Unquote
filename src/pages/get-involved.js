@@ -7,12 +7,10 @@ import SEO from "../components/seo"
 
 import GRRLogo from "../components/GRRLogo"
 import AHCCLogo from "../components/ahccLogo"
-import AHCCLogo from "../components/ahccLogo"
-import RIPLogo from "../components/ripLogo"
 import RIPLogo from "../components/ripLogo"
 import PVLogo from "../components/svLogo"
 import SWOPLogo from "../components/swopLogo"
-
+import RFKLogo from "../components/RFKLogo"
 
 
 const GetInvolved = () => (
