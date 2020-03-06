@@ -30,6 +30,7 @@ const News = ({ data }) => {
                className="body-text"
             >
                {body.body}
+               
             </p>
             <Link to="/news">&larr; Go back</Link>
          </div>

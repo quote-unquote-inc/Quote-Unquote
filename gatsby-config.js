@@ -19,7 +19,7 @@ module.exports = {
          },
          {
             name: "get involved!",
-            link: "/getInvolved",
+            link: "/get-involved",
          },
          /*{
             name: "KQUQ",
