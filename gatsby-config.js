@@ -18,8 +18,8 @@ module.exports = {
             link: "/services",
          },
          {
-            name: "partners",
-            link: "/partners",
+            name: "get involved!",
+            link: "/getInvolved",
          },
          /*{
             name: "KQUQ",
