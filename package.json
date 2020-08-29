@@ -34,6 +34,7 @@
     "gatsby-transformer-sharp": "^2.5.13",
     "glamor": "^2.20.40",
     "hover.css": "^2.3.2",
+    "immutable": "^4.0.0-rc.12",
     "intersection-observer": "^0.7.0",
     "netlify-cms-app": "^2.12.19",
     "node-sass": "^4.12.0",
@@ -50,6 +51,8 @@
     "react-spring": "^8.0.27",
     "react-typography": "^0.16.19",
     "react-under-construction": "^0.3.0",
+    "redux": "^4.0.5",
+    "rollup": "^2.26.8",
     "styled-components": "^4.3.2",
     "typography": "^0.16.19",
     "typography-theme-judah": "^0.16.19"
