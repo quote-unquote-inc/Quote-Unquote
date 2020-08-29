@@ -32,6 +32,62 @@ const ServicesPage = () => (
          >
             Loading…
          </iframe>
+         <form 
+            name="fileUpload" 
+            method="POST" 
+            data-netlify="true" 
+            css={{
+               marginBottom: "0px",
+               padding: "26px",
+               paddingBottom: "13px",
+               margin: "26",
+            }}
+         >
+            <div 
+               css={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  flexGrow: 0,
+                  justifyContent: "center",
+                  marginBottom: "13px",
+                  "@media(max-width: 830px)": {
+                     display: "contents"
+                  },
+               }}
+            >
+               <div 
+                  css={{
+                     flexWrap: "vertical",
+                     paddingRight: "96px"
+                  }}
+               >
+                  <p>
+                     <label>Your Name: <input css={{width:"13rem"}} type="text" name="name" /></label>   
+                  </p>
+                  <p>
+                     <label>Your Email: <input css={{width:"13rem"}} type="email" name="email" /></label>
+                  </p>
+               </div>
+               <div 
+                  css={{
+                     flexWrap: "vertical",
+                  }}
+               >
+                  <p>
+                     <input css={{minWidth: "max-content"}} type="file"></input>
+                  </p>
+                  <p>
+                     <button css={{width:"max-content"}} type="submit">Submit File Upload</button>
+                  </p>
+               </div>
+            </div>
+            
+            <div>
+               <p>
+                  Alternative method to submit content can be found <a href="https://www.dropbox.com/request/Cy3r3JManndXUq5bBWlq">here</a>.
+               </p>
+            </div>
+         </form>
       </div>
       <h1 css={{ padding:"16px," }}>Training</h1>
       <div className="trainingDiv" css={{ paddingBottom:"16px", fontSize:"1.3rem" }}>
