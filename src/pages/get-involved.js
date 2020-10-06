@@ -11,6 +11,7 @@ import RIPLogo from "../components/ripLogo"
 import PVLogo from "../components/svLogo"
 import SWOPLogo from "../components/swopLogo"
 import RFKLogo from "../components/RFKLogo"
+import SAGALogo from "../components/sagaLogo"
 
 
 const GetInvolved = () => (
@@ -231,6 +232,38 @@ const GetInvolved = () => (
                }}
             >
                <SWOPLogo />
+            </a>
+         </div>
+         <div
+            css={{
+               //margin: `0 auto`,
+               padding: `13px`,
+               //maxWidth: 240,
+               flexGrow: 1,
+               //padding: `1.45rem 1.0875rem`,
+               "@media(min-width: 220px)": {
+                  width: "40vw",
+               },
+               "@media(min-width: 400px)": {
+                  width: "40vw",
+               },
+               "@media(min-width: 760px)": {
+                  maxWidth: "30vw",
+               },
+            }}
+         >
+            <a
+               href="http://www.sagagymnastics.com/index.html"
+               aria-label="Saga Gymnastics Logo"
+               title="SAGA Gymnastics"
+               target="_blank"
+               rel="noopener noreferrer"
+               style={{
+                  color: `white`,
+                  textDecoration: `none`,
+               }}
+            >
+               <SAGALogo />
             </a>
          </div>
       </div>
