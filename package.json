@@ -30,7 +30,7 @@
     "gatsby-remark-responsive-iframe": "^2.4.17",
     "gatsby-source-contentful": "^2.3.50",
     "gatsby-source-filesystem": "^2.3.33",
-    "gatsby-transformer-remark": "^2.8.38",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.5.17",
     "glamor": "^2.20.40",
     "hover.css": "^2.3.2",
